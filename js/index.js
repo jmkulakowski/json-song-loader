@@ -21,7 +21,7 @@ fetchJSONFile('data/songs.json', success);
  * once it is available
  */
 function fetchJSONFile(path, callback) {
-    var httpRequest = new XMLHttpRequest();
+    let httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
         if (httpRequest.readyState === 4) {
             if (httpRequest.status === 200) {
