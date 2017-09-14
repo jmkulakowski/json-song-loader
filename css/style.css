@@ -1,0 +1,23 @@
+/**
+ * Styles
+ * ------
+ * The primary stylesheet for your application
+ */
+
+#game {
+	display: block;
+	background: #000;
+	margin: 15px auto;
+}
+
+.song {
+	border-bottom: 1px solid #ccc;
+}
+.song:nth-child(0) {
+	border-top: 1px solid #ccc;
+}
+
+.song ul {
+	padding-left: 0;
+	list-style: none;
+}

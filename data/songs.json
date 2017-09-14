@@ -1,0 +1,23 @@
+[
+	{
+		"title": "Awesome Song 1",
+		"key": "Eb Maj",
+		"tempo": "130bpm", 
+		"preview": "awesomeSong1Preview.wav", 
+		"media": "awesomeSong1.wav" 
+	},
+	{
+		"title": "Awesome Song 2",
+		"key": "C Min",
+		"tempo": "180bpm", 
+		"preview": "awesomeSong2Preview.wav", 
+		"media": "awesomeSong2.wav"
+	},
+	{
+		"title": "Awesome Song 3",
+		"key": "F# Min",
+		"tempo": "90bpm", 
+		"preview": "awesomeSong3Preview.wav", 
+		"media": "awesomeSong3.wav"
+	}
+]
