@@ -47,7 +47,7 @@ function success(data) {
     	if (data.hasOwnProperty(song) ) {
 	    	console.log(data[song]);
 	    	buildSong(data[song]);
-		}
+	}
     }
 }
 
