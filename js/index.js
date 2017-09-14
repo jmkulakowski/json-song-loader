@@ -65,12 +65,12 @@ function buildSong(songData) {
     	preview = songData.preview,
     	media = songData.media;
     song.innerHTML = '<h2>' + title + '</h2> ' + 
-    				 '<ul>' +
-    				 '<li>' + key + '</li>' +
-    				 '<li>' + tempo + '</li>' +
-    				 '<li>' + preview + '</li>' +
-      				 '<li>' + media + '</li>' +
-      				 '</ul>';
+			'<ul>' +
+			'<li>' + key + '</li>' +
+			'<li>' + tempo + '</li>' +
+			'<li>' + preview + '</li>' +
+			'<li>' + media + '</li>' +
+			'</ul>';
 
     document.querySelector('.container').appendChild(song);
 }
