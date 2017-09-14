@@ -40,7 +40,6 @@ function fetchJSONFile(path, callback) {
  * Callback function for a successful retrieval of a JSON file request
  */
 function success(data) {
-    // do something with your data
     console.log(data);
 
     let song;
